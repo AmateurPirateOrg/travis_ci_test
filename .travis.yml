@@ -5,6 +5,7 @@ dist: xenial
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install -U pytest
 # command to run tests
 script:
   - pytest
