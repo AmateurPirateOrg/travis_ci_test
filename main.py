@@ -1,4 +1,8 @@
 import pandas
 
-for i in range(5):
-    print(i)
+def foo(limit):
+    ans = []
+    for i in range(limit):
+        ans.append(i)
+
+    return ans
