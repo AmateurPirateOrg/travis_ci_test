@@ -1,3 +1,5 @@
 from main import foo
+import pandas
 
-assert foo(5) == [0,1,2,3,4]
+def test_1():
+    assert foo(5) == [0,1,2,3,4]
